@@ -849,20 +849,28 @@
 @media (prefers-color-scheme: dark) {
     .header {
         background: rgba(26, 26, 26, 0.95);
+        color: #f1f1f1; /* Thêm màu chữ sáng */
     }
     
     .nav-menu {
-        background-color: var(--background-dark);
+        background-color: var(--background-dark, #181818);
+        color: #f1f1f1; /* Thêm màu chữ sáng */
     }
     
     .hero {
         background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
+        color: #f1f1f1; /* Thêm màu chữ sáng */
     }
     
     .service-card,
     .car-card {
         background: #2c2c2c;
-        color: white;
+        color: #fff;
+    }
+
+    body {
+        background: #181818;
+        color: #f1f1f1;
     }
 }
 
