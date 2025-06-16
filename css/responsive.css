@@ -847,30 +847,17 @@
 
 /* Dark Mode Support */
 @media (prefers-color-scheme: dark) {
-    .header {
-        background: rgba(26, 26, 26, 0.95);
-        color: #f1f1f1; /* Thêm màu chữ sáng */
+    body {
+        background: #c0c0c0; /* Màu bạc */
+        color: #222;         /* Chữ tối để nổi bật trên nền bạc */
     }
-    
-    .nav-menu {
-        background-color: var(--background-dark, #181818);
-        color: #f1f1f1; /* Thêm màu chữ sáng */
-    }
-    
-    .hero {
-        background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 100%);
-        color: #f1f1f1; /* Thêm màu chữ sáng */
-    }
-    
+    .header,
+    .nav-menu,
+    .hero,
     .service-card,
     .car-card {
-        background: #2c2c2c;
-        color: #fff;
-    }
-
-    body {
-        background: #181818;
-        color: #f1f1f1;
+        background: #c0c0c0; /* Đồng bộ nền bạc */
+        color: #222;         /* Chữ tối */
     }
 }
 
