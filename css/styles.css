@@ -283,6 +283,7 @@ a:hover {
     flex: 1;
     z-index: 2;
     max-width: 600px;
+    margin-left: 16px;
 }
 
 .hero-title {
@@ -306,10 +307,6 @@ a:hover {
     display: flex;
     gap: 1rem;
     animation: fadeInUp 1s ease 0.4s both;
-}
-
-.hero-title, .hero-subtitle, .hero-buttons{
-    margin-left: 16px;
 }
 
 .hero-image {
